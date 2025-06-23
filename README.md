@@ -1,1 +1,1 @@
-This repository contains example leetcode challeges I've tried.
+This repository contains example leetcode challenges I've tried.
