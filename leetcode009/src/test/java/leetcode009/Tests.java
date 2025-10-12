@@ -1,0 +1,34 @@
+package leetcode009;
+
+import org.junit.jupiter.api.*;
+
+import leetcode009.Solution;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+public class Tests {
+	@Test
+	public void basicTestCase1() {
+		Solution solution = new Solution();
+
+		boolean test1output = solution.isPalindrome(121);
+		assertTrue(test1output, "121 should be a palindrome)");
+	}
+	
+	@Test
+	public void basicTestCase2() {
+		Solution solution = new Solution();
+
+		boolean test1output = solution.isPalindrome(-121);
+		assertFalse(test1output, "-121 should not be a palindrome)");
+	}
+	
+	@Test
+	public void basicTestCase3() {
+		Solution solution = new Solution();
+
+		boolean test1output = solution.isPalindrome(10);
+		assertFalse(test1output, "10 should not be a palindrome)");
+	}
+	
+}
