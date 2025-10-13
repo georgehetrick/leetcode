@@ -10,7 +10,11 @@ Thumbs.db
 *.class
 *.log
 *.tmp
+
+# Editor temp files
 *~
+\#*#
+.#*
 
 # Package Files #
 *.jar
