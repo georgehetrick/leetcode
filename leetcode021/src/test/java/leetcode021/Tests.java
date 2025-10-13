@@ -2,8 +2,6 @@ package leetcode021;
 
 import org.junit.jupiter.api.*;
 
-import leetcode021.Solution;
-import leetcode023.ListNode;
 
 import static org.junit.jupiter.api.Assertions.*;
 
