@@ -27,6 +27,7 @@ public class Tests {
       		assertEquals(testOutput.val, expected[i]);
       		testOutput = testOutput.next;
       	}
+      	assertEquals(testOutput, null);
 	}
 	
 }
