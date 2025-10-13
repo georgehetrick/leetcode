@@ -18,7 +18,7 @@ public class Tests {
     	
       	ListNode testOutput = solution.mergeTwoLists(first, second);
       	
-      	int[] expected = new int[] {-1, 3, 5, 10};
+      	int[] expected = new int[] {-1, 3, 5, 10, 11};
       	
       	for (int i=0; i<expected.length; i++) {
       		assertEquals(testOutput.val, expected[i]);
