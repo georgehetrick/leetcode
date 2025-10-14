@@ -16,6 +16,7 @@
         <module>leetcode021</module>
         <module>leetcode023</module>
         <module>leetcode042</module>
+        <module>leetcode051</module>
         <module>leetcode135</module>
     </modules>
 
