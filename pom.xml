@@ -19,6 +19,7 @@
         <module>leetcode051</module>
         <module>leetcode065</module>
         <module>leetcode135</module>
+        <module>leetcode875</module>
     </modules>
 
 </project>
