@@ -12,7 +12,7 @@ public class Tests {
 		Solution solution = new Solution();
 		
 		int testOutput = solution.candy(new int[] { 1, 0, 2 });
-		assertEquals(testOutput, 5, "Expected 5");
+		assertEquals(5, testOutput);
 	}
 	
 	@Test
@@ -20,6 +20,6 @@ public class Tests {
 		Solution solution = new Solution();
 		
 		int testOutput = solution.candy(new int[] { 1, 2, 2 });
-		assertEquals(testOutput, 4, "Expected 4");
+		assertEquals(4, testOutput);
 	}	
 }
