@@ -55,7 +55,7 @@ public class Solution {
 				// otherwise call recursive
 				//
 				if (next.length == n) {
-					childSolutions.add(Arrays.copyOf(next, next.length));
+					childSolutions.add(next);
 				} else {
 					List<int[]> nextSolutions = placeNextQueen(next, n);
 					childSolutions.addAll(nextSolutions);
