@@ -1,9 +1,6 @@
 package leetcode023;
 
 import org.junit.jupiter.api.*;
-
-import leetcode023.Solution;
-
 import static org.junit.jupiter.api.Assertions.*;
 
 public class Tests {
