@@ -19,7 +19,7 @@ class Solution {
 		if (length==n) {
 			return head.next;
 		} else {
-            ListNode previous = cycle[(index)%cycle.length];
+            ListNode previous = cycle[index%cycle.length];
             previous.next = previous.next.next;
 			return head;
         }
