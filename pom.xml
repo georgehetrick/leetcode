@@ -19,6 +19,8 @@
         <module>leetcode051</module>
         <module>leetcode065</module>
         <module>leetcode135</module>
+        <module>leetcode154</module>
+        <module>leetcode334</module>
         <module>leetcode875</module>
     </modules>
 
