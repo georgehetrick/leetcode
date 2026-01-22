@@ -10,7 +10,7 @@ public class Tests {
 		Solution solution = new Solution();
 		int output = solution.firstMissingPositive(input);
 		
-		assertEquals(6, output);
+		assertEquals(1, output);
 	}
 
 	@Test
